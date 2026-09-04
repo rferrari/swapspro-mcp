@@ -14,6 +14,8 @@ never handles private keys, signs, or broadcasts anything.
   - `evm_signable_tx` — same-chain swap, includes `tx` and optional `approvalTx`
   - `cross_chain_deposit` — cross-chain swap, includes `depositAddress` and `memo`
 
+![](assets/image1.png)
+
 ## Setup
 
 ```bash
