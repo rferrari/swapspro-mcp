@@ -24,6 +24,14 @@ npm run build
 Optional: set `SWAPSPRO_AGENT_PASS` to send an `X-SwapsPro-Access` header and lift
 default API rate limits.
 
+## Testing
+
+```bash
+npx @modelcontextprotocol/inspector node dist/index.js
+```
+
+Opens a local web UI to call each tool directly and inspect raw responses.
+
 ## Register with Claude Desktop
 
 Add to `claude_desktop_config.json`:
